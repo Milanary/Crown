@@ -1,0 +1,95 @@
+/* Container styling for left and right section */
+.handshake-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    /* background-color: #f6f4e8; */
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+/* Left section styling (image) */
+.handshake-left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.handshake-image {
+    max-width: 100%;
+    height: auto;
+    width: 350px; /* Adjust width based on your image */
+}
+
+/* Right section styling (text) */
+.handshake-right {
+    flex: 1;
+    padding-left: 220px;
+}
+
+.handshake-subtitle {
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.handshake-title {
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.handshake-title .highlight {
+    color: #AD274E; /* Green color to match the design */
+}
+
+.handshake-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.learn-more-button {
+    font-size: 1.2rem;
+    color: white;
+    background-color: #1C3968;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-button:hover {
+    background-color: #FFFF;
+    color: #AD274E;
+    border: 1px solid #1C3968;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .handshake-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .handshake-left {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .handshake-right {
+        padding-left: 0;
+    }
+
+    .handshake-title {
+        font-size: 2rem;
+    }
+
+    .handshake-image {
+        width: 300px; /* Smaller image size for mobile */
+    }
+}
