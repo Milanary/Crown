@@ -4,14 +4,17 @@ import Logo from '../Images/logo.png'
 import '../Styles/Layout.css'
 const Navbar = () => {
     return (
-        <nav style={{ backgroundColor: '#A91D3A',borderBottom: '0.6px solid #747677' }}>
+        <nav style={{ backgroundColor: '#AD274E', borderBottom: '0.6px solid #747677' }}>
             <div className='navbar container'>
                 <div className="navbar-logo">
                     <a href='/'><img src={Logo} alt="Logo" /></a>
                 </div>
                 <div className="navbar-contact">
-                    <span>Contact: <span style={{ color: 'white' }}>+123 456 7890</span></span>
-                    <br/>
+                    <span>
+                    <a href='/contact-us' style={{  color: '#ff9100' }}>Contact: </a>
+                        <span style={{ color: 'white' }}>+123 456 7890</span>
+                    </span>
+                    <br />
                     <span>Email: <span style={{ color: 'white' }}>crown@gmail.com</span></span>
 
 

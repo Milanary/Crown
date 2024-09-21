@@ -3,16 +3,21 @@ import '../Styles/ComponentStyles/Menu.css';
 import '../Styles/Layout.css'
 const Menu = () => {
     return (
-        <div style={{ backgroundColor: '#A91D3A'}}>
+        <div style={{ backgroundColor: '#AD274E'}}>
 
             <div className="container menu-container">
                 <ul className="menu-items">
-                    <li><a href="/">Home</a></li>
+                    <li><a href="#">Skills for Employment</a></li>
+                    <li><a href="#">IT and Digital Services</a></li>
+                    <li><a href="#">Entrepreneurship Promotion</a> </li>
+                    <li><a href="#">Academic Programmes</a> </li>
+                    <li><a href="#">Project Management</a> </li>
+
                     <li><a href="/about-us">About</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="/services">Products</a></li>
-                    <li><a href="/services">Hire a Talent</a></li>
-                    <li><a href="/contact-us">Contact Us</a></li>
+
+
+
+
                 </ul>
                 <a href="/courses" className="courses-button">Courses</a>
             </div>

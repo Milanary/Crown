@@ -21,7 +21,7 @@
 .menu-items a {
     text-decoration: none;
     color: #FFFFFF; 
-    font-size: 1.03rem; 
+    font-size: 0.9rem; 
 }
 
 .menu-items a:hover {
@@ -41,7 +41,7 @@
 
 .courses-button:hover {
     background-color: #FFFF;
-    color: #AD274E;
+    color: #A91D3A;
     border: 1px solid #1C3968;
 }
 
