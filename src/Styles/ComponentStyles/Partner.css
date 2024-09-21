@@ -1,0 +1,82 @@
+/* Section container */
+.partners-section {
+    /* background-color: #f3f9f4; */
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Container for content */
+.partners-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Subtitle styling */
+.partners-subtitle {
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 10px;
+    position: relative;
+}
+.partners-subtitle::before{
+   
+        content: "";
+        height: 1.7px;
+        width: 4rem;
+        overflow: hidden;
+        background-color: #AD274E;
+        position: absolute;
+        top: 40%;
+        left: 36%;
+}    
+.partners-subtitle::after{
+        content: "";
+        height: 1.7px;
+        width: 4rem;
+        overflow: hidden;
+        background-color: #AD274E;
+        position: absolute;
+        top: 40%;
+        right: 36%;
+}
+
+/* Title styling */
+.partners-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Highlighted text color */
+.partners-title .highlight {
+    color: #AD274E;
+}
+
+/* Carousel container */
+.partners-carousel {
+    margin-top: 20px;
+}
+
+/* Partner logos */
+.partner-logo {
+    background-color: white;
+    border: 2px solid #00af49;
+    border-radius: 10px;
+    padding: 10px;
+    max-height: 100px; /* Ensures all images have equal height */
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+/* On hover, slightly enlarge the logos */
+.partner-logo:hover {
+    transform: scale(1.05);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .partners-carousel {
+        centerSlidePercentage: 100%; /* Adjust so one image shows per slide on smaller screens */
+    }
+}

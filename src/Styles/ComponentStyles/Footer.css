@@ -1,0 +1,38 @@
+/* Adding more specific selectors to avoid conflicts */
+
+.footer-container .btn-hover:hover {
+  transform: scale(1.02);
+  transition: transform 500ms ease-in-out;
+}
+
+.footer-container .card-hover:hover {
+  transform: scale(1.02);
+  transition: transform 500ms ease-in-out;
+}
+
+.footer-divider {
+  height: 2px;
+  background-color: #7e7676;
+  margin: 10px 100px;
+  margin-top: 70px;
+}
+
+.footer-container .custom-icon-container .bi {
+  color: black !important; /* Ensure icons appear black */
+}
+
+/* Override other styles from bootstrap if necessary */
+.footer-container a.text-body-secondary {
+  color: #000 !important; /* Overriding potential conflicts */
+}
+
+.footer-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensure iframe has the proper styles */
+.footer-container iframe {
+  border: 0;
+  border-radius: 20px;
+}

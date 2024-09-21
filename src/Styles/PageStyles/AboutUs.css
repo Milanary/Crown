@@ -1,0 +1,172 @@
+
+
+.about-header {
+    background-color: #fff; /* Set background color to white */
+    padding: 40px;
+    padding-top: 20px;
+    color: #333; 
+    text-align: center;
+}
+
+.about-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+.about-header h4 {
+    font-size: 1.7rem;
+    color: #333;
+}
+.about-header p {
+    font-size: 1.2rem;
+    color: #666; /* Adjust text color for better readability */
+    margin: 10px 0;
+    text-align: left;
+}
+
+.mission-vision-values {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.cards {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 20px 0 0 20px;
+}
+
+.cards h2 {
+    color: #333;
+    padding-bottom: 25px;
+}
+
+.cards p,
+.cards ul {
+    color: #666;
+    text-align: left;
+}
+
+.cards ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cards ul li {
+    margin: 5px 0;
+}
+
+.mission {
+    background-color: #F6F4E8;
+}
+
+.vision {
+    background-color: #f9f0ff;
+}
+
+.values {
+    background-color: #f6ffed;
+}
+
+@media (max-width: 768px) {
+    .mission-vision-values {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+.why-choose-us {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 70px;
+}
+
+.image-section {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.image-section img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.accordion-section {
+    flex: 1;
+    background-color: #f8faff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-section h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.accordion-section p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.accordion {
+    margin-top: 20px;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #eef2ff;
+    border-radius: 5px;
+}
+
+.accordion-title h6 {
+    color: #333;
+    margin: 0;
+}
+
+.accordion-title span {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.accordion-content {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.accordion-content p {
+    margin: 0;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .why-choose-us {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-section {
+        margin-bottom: 20px;
+    }
+
+    .accordion-section {
+        width: 100%;
+    }
+}
