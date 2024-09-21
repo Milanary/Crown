@@ -3,7 +3,7 @@ import '../Styles/ComponentStyles/Menu.css';
 import '../Styles/Layout.css'
 const Menu = () => {
     return (
-        <div style={{ backgroundColor: '#AD274E'}}>
+        <div style={{ backgroundColor: '#4A2F2A'}}>
 
             <div className="container menu-container">
                 <ul className="menu-items">

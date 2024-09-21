@@ -3,7 +3,7 @@ import '../Styles/ComponentStyles/Banner.css';
 import '../Styles/Layout.css'
 const Banner = () => {
     return (
-        <div style={{ backgroundColor: '#ad274e', paddingBottom:'10rem' }}>
+        <div style={{ backgroundColor: '#4A2F2A', paddingBottom:'10rem' }}>
             <div className="banner container">
                 <div className="banner-text">
                     <h1>If you can dream it, we can make it.</h1>

@@ -4,7 +4,7 @@ import Logo from '../Images/logo.png'
 import '../Styles/Layout.css'
 const Navbar = () => {
     return (
-        <nav style={{ backgroundColor: '#AD274E', borderBottom: '0.6px solid #747677' }}>
+        <nav style={{ backgroundColor: '#4A2F2A', borderBottom: '0.6px solid #747677' }}>
             <div className='navbar container'>
                 <div className="navbar-logo">
                     <a href='/'><img src={Logo} alt="Logo" /></a>
